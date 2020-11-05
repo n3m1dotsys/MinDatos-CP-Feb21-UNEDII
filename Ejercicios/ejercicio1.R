@@ -1,4 +1,4 @@
-# Author: Mart??n Romera Sobrado
+# Author: Martin Romera Sobrado
 # 
 # Exercises for "Data analysis recipes: Fitting a model to data" 
 #
@@ -15,7 +15,7 @@ x <- table[,"x"]
 y <- table[,"y"]
 sigmay <- table[,"sigma_y"]
 
-# Creamos las matrices para el calulo de la matriz X
+# Creamos las matrices para el calculo de la matriz X
 YMat <- matrix(y, ncol = 1)
 AMat <- matrix(1, nrow = length(x), ncol = 2)
 AMat[,2] = x 
