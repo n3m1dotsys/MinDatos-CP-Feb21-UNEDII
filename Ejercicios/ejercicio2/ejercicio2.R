@@ -8,7 +8,7 @@ library(matlib)
 # setwd(getSrcDirectory()[1])
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Para RStudio
 # Cargamos los datos de la tabla y eliminamos los datos sobrantes
-table <- read.csv('Datos/tabla1.csv')
+table <- read.csv('../Datos/tabla1.csv')
 table = table[,1:4]
 
 # Recogemos los datos de table en variables diferentes
